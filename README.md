@@ -8,19 +8,13 @@ The task is to classify graphs representing molecules into two classes, indicati
 During this Kaggle project, we were not allowed to use the *scikit-learn* library and had to create our own classifiers using only convex optimization libraries such as *cvxopt*.
 
 ## Explored methods:
-\begin{itemize}
-    \item **Kernels:**
-        \begin{itemize}
-            \item Subtree-based kernels: Weisfeiler-Lehman subtree kernel, Weisfeiler-Lehman edge kernel
-            \item Path-based kernel: Random walk kernel, Shortest path kernel
-            \item Graphlet kernel
-        \end{itemize}
-    \item **Classifiers:**
-        \begin{itemize}
-            \item Kernel SVM
-            \item Kernel Logistic Regression
-        \end{itemize}
-\end{itemize}
+- **Kernels:**
+    - Subtree-based kernels: Weisfeiler-Lehman subtree kernel, Weisfeiler-Lehman edge kernel
+    - Path-based kernel: Random walk kernel, Shortest path kernel
+    - Graphlet kernel
+- **Classifiers:**
+    - Kernel SVM
+    - Kernel Logistic Regression
 
 ## Results:
 
